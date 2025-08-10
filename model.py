@@ -19,7 +19,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score,accuracy_score
 
 # 1.load the data
-df = pd.read_csv('C:\\Users\\Server\\Desktop\\pro\\ml\\projects\\best_projects\\housing price pridiction\\housing_data.csv')
+df = pd.read_csv('data/housing_data.csv')
 # print(df.head())
 
 # 2.analyse the data
