@@ -1,3 +1,5 @@
+
+````markdown
 # 🏠 House Price Prediction – Flask Web App
 
 A **Machine Learning** web application that predicts house prices using **Linear Regression**.  
@@ -7,6 +9,8 @@ Users can enter property details like square footage, number of bedrooms/bathroo
 
 ## 📊 Project Overview
 
+```mermaid
+flowchart LR
 A[User Inputs Data in Form] --> B[Flask Backend Receives Data]
 B --> C[Model Loads with Joblib]
 C --> D[Model Predicts Price]
@@ -50,6 +54,8 @@ E --> F[Result Displayed Instantly]
  ┣ 📜 Procfile         # Deployment config
  ┗ 📜 README.md        # Project documentation
 ```
+
+---
 
 
 ## ⚙️ How It Works
