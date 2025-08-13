@@ -10,12 +10,12 @@ Users can enter property details like square footage, number of bedrooms/bathroo
 ## 📊 Project Overview
 
 ```mermaid
-flowchart LR
-A[User Inputs Data in Form] --> B[Flask Backend Receives Data]
-B --> C[Model Loads with Joblib]
-C --> D[Model Predicts Price]
-D --> E[Prediction Sent Back to Frontend]
-E --> F[Result Displayed Instantly]
+- flowchart LR
+- A[User Inputs Data in Form] --> B[Flask Backend Receives Data]
+- B --> C[Model Loads with Joblib]
+- C --> D[Model Predicts Price]
+- D --> E[Prediction Sent Back to Frontend]
+- E --> F[Result Displayed Instantly]
 ````
 
 ---
